@@ -1,0 +1,1 @@
+CMD /k "coverage run -m unittest -v test_basic_info.py discover"

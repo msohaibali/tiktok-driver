@@ -1,0 +1,32 @@
+{
+    "LOGIN_CREDENTIALS": {
+        "USERNAME": "low.key2025",
+        "PASSWORD": "viewlytics",
+        "DRIVER_TYPE": "CHROME",
+        "PROFILE": "Profile 1"
+    },
+    "BROWSER_PATH": "\\Google\\Chrome\\User Data\\",
+    "CHECK_LOGGED_IN_CLASS": "_aacl",
+    "Paths": {
+        "FilesToBeProcessed": "C:\\Users\\DELL\\Desktop\\Sohaib\\FilesToBeProcessed\\PostMediaFiles",
+        "BasicInfo": "C:\\Users\\DELL\\Desktop\\Sohaib\\FilesToBeProcessed\\BasicInfoFiles"
+    },
+    "BASIC_XPATH": {
+        "name_xpath": "//h1[@data-e2e='user-subtitle']",
+        "bio_xpath": "//h2[@data-e2e='user-bio']",
+        "followers_xpath": "//strong[@data-e2e='followers-count']",
+        "followings_xpath": "//strong[@data-e2e='following-count']",
+        "likes_xpath": "//strong[@data-e2e='likes-count']",
+        "avatar_xpath": "//div[@data-e2e='user-avatar']/span/img"
+    },
+    "POSTS_COUNT": 100,
+    "MEDIA_XPATH": {
+        "post_xpath": "//div[@data-e2e='user-post-item']",
+        "video_views_xpath": "//strong[@data-e2e='video-views']",
+        "video_thumb_xpath": "//img",
+        "video_link_xpath": "//a",
+        "video_caption": "//div[@data-e2e='user-post-item-desc']",
+        "likes_xpath": "//strong[@data-e2e='likes-count']",
+        "avatar_xpath": "//div[@data-e2e='user-avatar']/span/img"
+    }
+}
